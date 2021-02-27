@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        docker { image "diogooliveiratech/node-wd" }
+        docker { image "node" }
     }
     stages {
         stage('Build') {
